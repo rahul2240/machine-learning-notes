@@ -1,0 +1,19 @@
+Linear regression
+
+A graph is plotted in labelled example where the thing to predict is on the y axis represented as y' and feature is on the x axis represented as x'.
+
+bias is the y intercept represented as b'
+
+w is the slope of the line.
+
+Equation of line becomes y' = b' + w1x1
+
+Squared loss is the popular loss function
+
+= (observation - prediction)^2
+
+Mean square error is the average squared loss.
+
+= (sigma(y-prediction)^2)/N
+
+If a observed value is plotted far from the line then loss will be its squared value that is the loss will be very high and we draw a line to keep the loss very low.
