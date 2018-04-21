@@ -1,0 +1,15 @@
+Draw a line for the first labelled example then take more data and restruture that line to minimise the loss.
+
+Finding the loss function for every value of w1 is an inefficient way of finding a convergence point so we use a efficient mechanism called gradient descent.
+
+The gradient descent algorithm takes a step in the direction of the negative gradient in order to reduce loss as quickly as possible.
+
+Gradient descent algorithms multiply the gradient by a scalar known as the learning rate (also sometimes called step size) to determine the next point.
+
+There's a Goldilocks learning rate for every regression problem. The Goldilocks value is related to how flat the loss function is. If you know the gradient of the loss function is small then you can safely try a larger learning rate, which compensates for the small gradient and results in a larger step size.
+
+A batch is the total number of examples that you can use to find the gradient.
+
+stochastic gradient descent is selecting a random data(single unit) to find the gradient.
+
+mini-batch stochastic gradient descent is the compromise between the full batch iteration and the SGD, it take 10 to 1,000 random data from a large set and compute the gradient from it, it is as efficient as full batch iteration.
