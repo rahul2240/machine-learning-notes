@@ -1,0 +1,17 @@
+Model is a relationship between the features and the label.
+
+2 phases of a model's life are:
+
+Training: Training means creating or learning the model, i.e You show the labelled data to the model and allow it to form relationship between the features and the label.
+
+Inference: Inference means to allow the model to make predictions about the the unlabelled data.
+
+Regression VS Classification
+
+Regression: Regression model predicts continuous values.
+Example: What is the value of the house in a city.
+         What is the probabilty that user will buy this house.
+    
+Classification: Classification model predicts discrete values.
+Example: Whether the email is spam or not.
+         Whether the picture if of horse or donkey.
