@@ -7,6 +7,10 @@ clf = GaussianNB()
 
 clf.fit(features_available, labels_available)  
 
-clf.predict(features_whose_labels_are_not_available)
+pred = clf.predict(features_whose_labels_are_not_available)
 
 
+Accuracy
+
+from sklearn.metrics import accuracy_scory
+accuracy = accuracy_score(predicted_label i.e pred, actual_label)
