@@ -16,3 +16,12 @@ Parametes: arguments passed when we create a classifier before fitting.
   
 Overfitting: When division used is non uniform but a straight line or more uniform division that can used to separate the data.
  
+Code:
+
+  from sklearn.svm import SVC
+  clf = SVC(kernel = 'rbf', C = 1000, gamma = 1)
+
+
+Using less data to fit
+
+  features_train = features_train[:len(features_train)/100]
