@@ -11,4 +11,8 @@ Parametes: arguments passed when we create a classifier before fitting.
   - C: controls trade off between the smooth decision boundary and classifying training points correctly.
   - Gamma: defines how far the influence of a single training example reaches.
   
+  High Gamma takes consideration of near points.
+  Low Gamma takes consideration of far points.
+  
+Overfitting: When division used is non uniform but a straight line or more uniform division that can used to separate the data.
  
