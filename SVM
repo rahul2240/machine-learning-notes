@@ -1,0 +1,14 @@
+Support Vector Machine 
+
+Margin: Line that maximizes distance from nearest point is called margin.
+
+Outliers: Points that are lying at the wrong side.
+
+Parametes: arguments passed when we create a classifier before fitting.
+
+3 Parameters:
+  - Kernel
+  - C: controls trade off between the smooth decision boundary and classifying training points correctly.
+  - Gamma: defines how far the influence of a single training example reaches.
+  
+ 
