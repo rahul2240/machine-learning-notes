@@ -1,0 +1,17 @@
+from sklearn import tree
+clf = DecisionTreeClassifier()
+
+parameters = min_samples_split
+
+min_sample_split: minimum tree distribution
+low value = more complex and accurate tree
+more value = less complex and less accurate tree
+
+Entropy: controls how decision tree will split the data.
+
+entropy = sigma( p*logp )
+
+
+Information gain = entropy(parent) - (weighted average)entropy(children)
+
+Decision tree will try to maximize the information gain.
